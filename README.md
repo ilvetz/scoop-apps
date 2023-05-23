@@ -1,23 +1,12 @@
 # Scoop Bucket Template
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+[![Tests](https://github.com/ilvetz/scoop-apps/actions/workflows/ci.yml/badge.svg)](https://github.com/ilvetz/scoop-apps/actions/workflows/ci.yml) [![Excavator](https://github.com/ilvetz/scoop-apps/actions/workflows/excavator.yml/badge.svg)](https://github.com/ilvetz/scoop-apps/actions/workflows/excavator.yml)
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+A personal bucket that contains alternative manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For missing apps from official buckets.
 
 How do I install these manifests?
 ---------------------------------
 
-To add this bucket, run `scoop bucket add <bucketname> https://github.com/<username>/<bucketname>`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add missing-apps https://github.com/ilvetz/scoop-apps`. To install, do `scoop install <manifest>`.
 
-How do I contribute new manifests?
-----------------------------------
-
-To make a new manifest contribution, please read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
-
-----
-
-#### To use this template
-
-- Modify the Readme.md and the bin/auto-pr.ps1 files accordingly.
-- Enable GitHub Actions for this repository.
+[Missing apps bucket list](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2Filvetz%2Fscoop-apps%22&o=false&s=1&d=0)
