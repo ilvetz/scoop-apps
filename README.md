@@ -1,6 +1,6 @@
 # Scoop Bucket Template
 
-[![Tests](https://github.com/ilvetz/scoop-apps/actions/workflows/ci.yml/badge.svg)](https://github.com/ilvetz/scoop-apps/actions/workflows/ci.yml) [![Excavator](https://github.com/ilvetz/scoop-apps/actions/workflows/excavator.yml/badge.svg)](https://github.com/ilvetz/scoop-apps/actions/workflows/excavator.yml)
+[![Tests](https://github.com/ilvetz/scoop-apps/actions/workflows/ci.yml/badge.svg)](https://github.com/ilvetz/scoop-apps/actions/workflows/ci.yml) <!-- [![Excavator](https://github.com/ilvetz/scoop-apps/actions/workflows/excavator.yml/badge.svg)](https://github.com/ilvetz/scoop-apps/actions/workflows/excavator.yml) -->
 
 A personal bucket that contains alternative manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For missing apps from official buckets.
 
