@@ -1,0 +1,21 @@
+{
+    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "13.4.63.0",
+    "description": "JW Library is an official app produced by Jehovah's Witnesses. It contains various Bible translations, as well as Bible study books and brochures.",
+    "homepage": "https://www.jw.org/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://www.jw.org/it/guida-online/jw-library/"
+    },
+    "notes": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://download-a.akamaihd.net/files/media_publication/5d/jwlb_E.zip",
+            "hash": "ce8c9109d5666b4b826fdb42e46f9308341f51259ea9b2b01c71c83753106123"
+        }
+    },
+    "pre_install": "Expand-7zipArchive \"$dir\\jwlb_E.zip\" -ExtractDir 'jwlibrary-bin' -Removal",
+    "installer": {
+        "script": ""
+    }
+}
